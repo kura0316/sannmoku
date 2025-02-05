@@ -1,14 +1,19 @@
 .container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
   justify-content: center;
   height: 100vh;
   min-height: 100vh;
   padding: 0 0.5rem;
-  background-color: aqua;
 }
 
-.title {
-  margin-left: 1000px;
-  font-family: 'Times New Roman', Times, serif;
+.number {
   font-size: 100px;
-  color: rgb(18 150 232);
+}
+
+.button {
+  width: 70px;
+  height: 70px;
+  font-size: 70px;
 }
