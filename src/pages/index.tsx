@@ -38,6 +38,8 @@ const Home = () => {
       <button onClick={handleIncrement2} className={styles.button}>
         +
       </button>
+
+      <div className={styles.number}>{number + number2}</div>
     </div>
   );
 };
